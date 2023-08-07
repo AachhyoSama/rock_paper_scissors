@@ -1,0 +1,37 @@
+# Ignore build output
+/dist/
+/out/
+/build/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled TypeScript files
+*.js
+*.js.map
+
+# Ignore any editor/IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore operating system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temp files
+*.tmp
+*.temp
+
+# Optionally, ignore environment files if you have any
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Optionally, ignore package-lock.json for npm projects
+package-lock.json
